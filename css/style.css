@@ -24,3 +24,21 @@ p {
   font-weight: bolder;
   font-size: 40px;
 }
+.anime_test {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  animation: anime1 3s ease;
+}
+
+@keyframes anime1 {
+  0% {
+    opacity: 0;
+    top: 50px;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
